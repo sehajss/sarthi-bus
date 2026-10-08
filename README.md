@@ -127,3 +127,7 @@ streamlit run app.py
 - Replace the distance/speed-based ETA fallback with a proper per-leg model chain
 - Deploy the live loggers on an always-on host so the public demo reflects real-time
   data rather than a frozen snapshot
+
+## Note
+
+- You mjust download the GTFS static data separately, stop_times.txt was too large for the repository.
