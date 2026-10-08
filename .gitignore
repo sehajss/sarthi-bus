@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Runtime/generated data
+data/live/*.db
+data/live/*.csv
+
+# Editor files
+.idea/
+.DS_Store
+# Local Codex/agent configuration
+.agents/
+
+# Live/generated transport data
+data/live/
+data/static/*.zip
+data/static/stop_times.txt
